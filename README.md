@@ -19,3 +19,10 @@ Language: Python 3.6 or above Libraries: pandas, numpy, time
 
 ## Running the program:
 You can input 'python bikeshare.py' on your terminal to run this program.
+
+## Files
+I used data provided by Motivate, a national bike share system provider. In order to run the program, the following files are needed.
+
+* chicago.csv
+* new _york _city.csv
+* washington.csv
