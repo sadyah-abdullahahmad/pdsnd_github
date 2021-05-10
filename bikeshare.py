@@ -16,7 +16,7 @@ def get_filters():
 
     # TO DO: get user input for city (chicago, new york city, wash ington). HINT: Use a while loop to handle invalid inputs
 
-    while True:
+while True:
         city=  input('which city would you like to travel? \"Chicago\", \"New York\" or \"Washington\"? \n')
         city=city.lower()
         if city in cites:
@@ -27,7 +27,7 @@ def get_filters():
 
     # TO DO: get user input for month (all, january, february, ... , june)
 
-    while True:
+while True:
         month=  input ('which month would you like to travel? choose from january to june or enter All. \n')
         month=month.lower()
         if month == 'january' or month =='february' or month == 'march' or month == 'april' or month == 'may' or month == 'june' or month == 'all':
@@ -35,7 +35,7 @@ def get_filters():
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
 
-    while True:
+while True:
           day=  input ('which day of week would you like to travel? choose from sundy to Wednesday or enter All. \n')
           day= day.lower()
           if day == 'monday' or day =='tuesday' or day == 'wednesday' or day == 'thursday' or day == 'friday' or day == 'saturday' or day == 'sunday' or day == 'all':
@@ -168,7 +168,7 @@ def main():
                 break
             display_raw_data(df)
             break
-            
+
 
 if __name__ == "__main__":
 	main()
